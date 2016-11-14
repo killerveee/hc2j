@@ -1,4 +1,42 @@
-.centered{
-  display: block;
-  margin: auto;;
+.banner{
+  width: 50%;
+  border:1px solid #fff;
+}
+.html-tile{
+  width: auto;
+  background-color: #f0ab12;
+  border:1px solid #fff;
+  overflow: hidden;
+  font-family: monospace;
+  color:#fff;
+}
+.css-tile{
+  width: auto;
+  background-color: #2dbcc0;
+  border:1px solid #fff;
+  overflow: hidden;
+  font-family: monospace;
+  color:#fff;
+}
+.js-tile{
+  width: auto;
+  background-color: #196575;
+  border:1px solid #fff;
+  overflow: hidden;
+  font-family: monospace;
+  color:#fff;
+}
+.jq-tile{
+  width: auto;
+  background-color: #eb4a20;
+  border:1px solid #fff;
+  overflow: hidden;
+  font-family: monospace;
+  color:#fff;
+}
+.left{
+  float:left;
+}
+.right{
+  float: right;
 }
