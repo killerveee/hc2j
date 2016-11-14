@@ -5,12 +5,16 @@ body{
   -o-background-size: cover;
   background-size: cover;
 }
+.logo{
+  overflow: hidden;
+}
 .centered{
   display: block;
   margin: auto;
 }
 .banner{
-  width: 50%;
+  margin-top: 80px;
+  width: 30%;
   border:1px solid #fff;
 }
 .html-tile{
