@@ -12,12 +12,19 @@ body{
 .logo{
   overflow: hidden;
 }
+.home-logo{
+  margin-top: 3px;
+  margin-left: 3px;
+  height:40px;
+  border-radius: 25px;
+  padding: 9px;
+}
 .centered{
   display: block;
   margin: auto;
 }
 .banner{
-  margin-top: 80px;
+  margin-top: 50px;
   width: 30%;
 }
 .html-tile{
@@ -37,6 +44,16 @@ body{
   overflow: hidden;
   font-family: monospace;
   color:#f0ab12;
+}
+.nav-font{
+  font-size: 1.98em;
+}
+.home-nav{
+  width: 100%;
+  padding: 1px;
+  background-color: #f0ab12;
+  font-family: monospace;
+  color:#fff;
 }
 .css-tile{
   width: auto;
