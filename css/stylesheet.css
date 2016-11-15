@@ -1,5 +1,9 @@
 body{
   background: url(bg.jpeg) no-repeat center center fixed;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,43 +19,85 @@ body{
 .banner{
   margin-top: 80px;
   width: 30%;
-  border:1px solid #fff;
 }
 .html-tile{
   width: auto;
   background-color: #f0ab12;
-  border:1px solid #fff;
   overflow: hidden;
   font-family: monospace;
   color:#fff;
+  transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+}
+.html-tile:hover{
+  background-color: transparent;
+  border-left: 10px solid #f0ab12;
+  border-right: 10px solid #f0ab12;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: monospace;
+  color:#f0ab12;
 }
 .css-tile{
   width: auto;
   background-color: #2dbcc0;
-  border:1px solid #fff;
   overflow: hidden;
   font-family: monospace;
   color:#fff;
+  transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+}
+.css-tile:hover{
+  background-color: transparent;
+  border-left: 10px solid #2dbcc0;
+  border-right: 10px solid #2dbcc0;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: monospace;
+  color:#2dbcc0;
 }
 .js-tile{
   width: auto;
   background-color: #196575;
-  border:1px solid #fff;
   overflow: hidden;
   font-family: monospace;
   color:#fff;
+  transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+}
+.js-tile:hover{
+  background-color: transparent;
+  border-left: 10px solid #196575;
+  border-right: 10px solid #196575;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: monospace;
+  color:#196575;
 }
 .jq-tile{
   width: auto;
   background-color: #eb4a20;
-  border:1px solid #fff;
   overflow: hidden;
   font-family: monospace;
   color:#fff;
+  transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+}
+.jq-tile:hover{
+  background-color: transparent;
+  border-left: 10px solid #eb4a20;
+  border-right: 10px solid #eb4a20;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: monospace;
+  color:#eb4a20;
 }
 .left{
   float:left;
 }
 .right{
   float: right;
+}
+a{
+  text-decoration: none;
 }
