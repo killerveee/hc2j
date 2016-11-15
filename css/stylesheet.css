@@ -24,7 +24,7 @@ body{
   margin: auto;
 }
 .banner{
-  margin-top: 50px;
+  margin-top: 30px;
   width: 30%;
 }
 .html-tile{
@@ -47,9 +47,10 @@ body{
 }
 .nav-font{
   font-size: 1.98em;
+  margin-right: 100px;
 }
 .home-nav{
-  width: 100%;
+  width: auto;
   padding: 1px;
   background-color: #f0ab12;
   font-family: monospace;
