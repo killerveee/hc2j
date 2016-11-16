@@ -119,3 +119,97 @@ body{
 a{
   text-decoration: none;
 }
+.html-list{
+  display:block;
+  list-style: none;
+  height: 1%;
+  width: 50%;
+  background-color: #fff;
+  border:5px solid #f0ab12;
+  color: #f0ab12;
+  font-family: monospace;
+  transition: background 0.3s ease;
+  -webkit-transition:background-color 0.3s ease;
+  text-align: center;
+}
+.html-list:hover{
+  position: relative;
+  cursor: pointer;
+  background-color: #f0ab12;
+  border-top:5px solid #f0ab12;
+  border-right:10px solid #fff;
+  border-left:10px solid #fff;
+  color:#fff;
+  border-radius: 3px;
+}
+.css-list{
+  display:block;
+  list-style: none;
+  height: 1%;
+  width: 50%;
+  background-color: #fff;
+  border:5px solid #2dbcc0;
+  color: #2dbcc0;
+  font-family: monospace;
+  transition: background 0.3s ease;
+  -webkit-transition:background-color 0.3s ease;
+  text-align: center;
+}
+.css-list:hover{
+  position: relative;
+  cursor: pointer;
+  background-color: #2dbcc0;
+  border-top:5px solid #2dbcc0;
+  border-right:10px solid #fff;
+  border-left:10px solid #fff;
+  color:#fff;
+  border-radius: 3px;
+}
+.javascript-list{
+  display:block;
+  list-style: none;
+  height: 1%;
+  width: 50%;
+  background-color: #fff;
+  border:5px solid #196575;
+  color: #196575;
+  font-family: monospace;
+  transition: background 0.3s ease;
+  -webkit-transition:background-color 0.3s ease;
+  text-align: center;
+}
+.javascript-list:hover{
+  position: relative;
+  cursor: pointer;
+  background-color: #196575;
+  border-top:5px solid #196575;
+  border-right:10px solid #fff;
+  border-left:10px solid #fff;
+  color:#fff;
+  border-radius: 3px;
+}
+.jquery-list{
+  display:block;
+  list-style: none;
+  height: 1%;
+  width: 50%;
+  background-color: #fff;
+  border:5px solid #eb4a20;
+  color: #eb4a20;
+  font-family: monospace;
+  transition: background 0.3s ease;
+  -webkit-transition:background-color 0.3s ease;
+  text-align: center;
+}
+.jquery-list:hover{
+  position: relative;
+  cursor: pointer;
+  background-color: #eb4a20;
+  border-top:5px solid #eb4a20;
+  border-right:10px solid #fff;
+  border-left:10px solid #fff;
+  color:#fff;
+  border-radius: 3px;
+}
+.row{
+}
